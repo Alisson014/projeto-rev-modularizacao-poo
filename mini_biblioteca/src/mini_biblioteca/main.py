@@ -1,4 +1,4 @@
-from .__init__ import Livro, Usuario, Emprestimo
+from . import Livro, Usuario, Emprestimo
 
 print("Criando classes: ")
 # Criando usuário

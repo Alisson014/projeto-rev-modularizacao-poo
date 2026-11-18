@@ -28,5 +28,5 @@ class Emprestimo:
         self._livro.disponivel = True
 
     def __str__(self):
-        return f"Empréstimo:\n\t{str(self.livro)}\n\t{str(self.usuario)}"
+        return f"Empréstimo:\n\t{str(self.livro)}\n\t{str(self.usuario)}\n\tAtivo: {self.ativo}"
 
