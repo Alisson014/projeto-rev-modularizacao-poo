@@ -7,7 +7,9 @@ authors = [
     { name = "José Alisson", email = "josealissondiasdacostaf10@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pytest>=9.2.0",
+]
 
 [project.scripts]
 mini-biblioteca = "mini_biblioteca:main"
