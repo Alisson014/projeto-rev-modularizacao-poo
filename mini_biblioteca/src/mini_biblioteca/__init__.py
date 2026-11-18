@@ -1,2 +1,10 @@
-def main() -> None:
-    print("Hello from mini-biblioteca!")
+
+from .usuarios import Usuario
+from .livros import Livro
+from .emprestimos import Emprestimo
+
+__all__ = [
+    "Usuario",
+    "Livro",
+    "Emprestimo",
+]
