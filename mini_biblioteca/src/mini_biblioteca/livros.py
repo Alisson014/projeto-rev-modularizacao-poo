@@ -6,3 +6,6 @@ class Livro:
         self.codigo = codigo
         self.disponivel = True
 
+    def __str__(self):
+        return f"Livro[{self.codigo}] {self.titulo} - {self.autor} ({self.disponivel})"
+    
